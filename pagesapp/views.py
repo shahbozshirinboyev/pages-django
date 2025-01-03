@@ -12,3 +12,6 @@ class AboutPageView(TemplateView):
 
 class ContactsPageView(TemplateView):
     template_name = 'contacts.html'
+
+class NewsPageView(TemplateView):
+    template_name = 'news.html'
